@@ -1,0 +1,45 @@
+@import '../../resources/scaffold.scss';
+
+.consigners {
+    .add-icon {
+        font-size: 38px;
+        margin-right: 4px;
+        font-weight: bold;
+    }
+    // 添加提货人按钮
+    .add-consigner {
+        height: 160px;
+        line-height: 160px;
+        font-size: 40px;
+    }
+
+    // 灰色的条
+    .gray-bar {
+        height: 30px;
+        background-color: $stable;
+    }
+
+    .consigners-empty {
+        padding: 20% 0;
+    }
+
+    .image-box {
+        width: 100%;
+        max-width: 640px;
+        margin: 100px auto 36px;
+    }
+
+    .img-position {
+        height: 174px;
+        background: url(./position@3x.png) no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .text {
+        margin-bottom: 40px;
+        text-align: center;
+        color: #999;
+        font-size: 30px;
+    }
+}

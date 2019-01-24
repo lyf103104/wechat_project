@@ -1,0 +1,129 @@
+@import '../../resources/scaffold.scss';
+
+.product-empty {
+    padding: 0 50px;
+    font-size: $font-size-base;
+
+    .store {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 124px;
+        line-height: 124px;
+        border-bottom: 1px solid $line-color;
+    }
+
+    .store-icon {
+        width: 28px;
+        height: 28px;
+        margin: 48px 10px 0 0;
+        background: url(./scan-icon.png) no-repeat;
+        background-size: 28px 28px;
+    }
+    .store-text {
+        color: $text-color-quiet;
+    }
+    .icon-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .icon {
+        width: 60px;
+        height: 60px;
+        margin: 0 56px;
+        background-size: 60px 60px;
+    }
+    .scan-icon {
+        background-image: url(./scan-icon.png);
+    }
+    .pay-icon {
+        background-image: url(./pay-icon.png);
+    }
+    .leave-icon {
+        background-image: url(./leave-icon.png);
+    }
+    .line {
+        width: 49px;
+        height: 0;
+        margin: 29px 0;
+        border-top: 2px solid #666;
+    }
+    .text-box {
+        display: flex;
+        justify-content: center;
+        margin: 8px 0;
+    }
+    .title {
+        font-size: $font-size-base;
+    }
+    .text {
+        width: 172px;
+        margin-right: 49px;
+        text-align: center;
+    }
+    .text-last {
+        margin-right: 0;
+    }
+    .sub-title {
+        font-size: $font-size-small;
+        color: #999;
+    }
+    .button-box {
+        position: relative;
+        width: 280px;
+        height: 220px;
+        margin: 160px auto 50px auto;
+        padding: 60px 0 0 0;
+        background-color: $primary-color;
+        border-radius: 56px;
+        text-align: center;
+    }
+    .code-icon {
+        display: block;
+        width: 154px;
+        height: 96px;
+        margin: 0 auto;
+        background: url(./code-icon.png) no-repeat;
+        background-size: 154px 96px;
+    }
+    .button-text {
+        display: block;
+        margin-top: 30px;
+        font-size: $font-size-large;
+        color: $white;
+    }
+    .limit-tips {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: $text-color-quiet;
+        font-size: $font-size-small;
+    }
+
+    .icon-circle {
+        width: 28px;
+        height: 28px;
+    }
+
+    .limit-text {
+        margin-left: 8px;
+    }
+
+    .bottom-buttons {
+        display: flex;
+        bottom: 0;
+        height: 84px;
+        margin-top: 150px;
+        background-color: $white;
+
+        .bottom-button {
+            width: 374px;
+        }
+        .separate-line {
+            height: 34px;
+            margin: 25px 0;
+            border-left: 1px solid $line-color;
+        }
+    }
+}

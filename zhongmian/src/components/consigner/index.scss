@@ -1,0 +1,37 @@
+@import '../../resources/scaffold.scss';
+
+.consigner-item {
+    display: flex;
+    padding: 40px;
+    font-size: $font-size-base;
+    color: $text-color-quiet;
+
+    border-top: 1px solid $line-color;
+
+    &.last-child {
+        border-bottom: 1px solid $line-color;
+    }
+
+    .consigner-checked {
+        margin: 44px 36px 0 0;
+    }
+
+    .name,
+    .mobilephone,
+    .credentials {
+        margin-left: 10px;
+        line-height: 1.5em;
+    }
+
+    .name {
+        font-size: $font-size-large;
+    }
+
+    .default {
+        padding: 2px 8px;
+        margin-left: 10px;
+        background-color: $primary-color;
+        color: $white;
+        font-size: $font-size-base;
+    }
+}

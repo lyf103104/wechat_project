@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+$images-path: './images';
+
+.cm-icon {
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 28px;
+
+    &.icon-circle {
+        background-image: url(#{$images-path}/icons/icon-circle@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-arrow-right-outline {
+        background-image: url(#{$images-path}/icons/icon-arrow-right-outline@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-idcard-outline {
+        background-image: url(#{$images-path}/icons/icon-idcard-outline@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-phone-outline {
+        background-image: url(#{$images-path}/icons/icon-phone-outline@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-position-outline {
+        background-image: url(#{$images-path}/icons/icon-position-outline@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-arrow-right-outline-black {
+        background-image: url(#{$images-path}/icons/icon-arrow-right-outline-black@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-flight-outline {
+        background-image: url(#{$images-path}/icons/icon-flight-outline@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-idcard-outline-black {
+        background-image: url(#{$images-path}/icons/icon-idcard-outline-black@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-phone-outline-black {
+        background-image: url(#{$images-path}/icons/icon-phone-outline-black@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-scan {
+        background-image: url(#{$images-path}/icons/icon-scan@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-minus {
+        background-image: url(#{$images-path}/icons/icon-minus@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-add {
+        background-image: url(#{$images-path}/icons/icon-add@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-shopping {
+        background-image: url(#{$images-path}/icons/icon-shopping@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-check {
+        background-image: url(#{$images-path}/icons/icon-check@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-error {
+        background-image: url(#{$images-path}/icons/icon-error@2x.png);
+        background-size: 100%;
+    }
+
+    &.icon-arrow-down-outline {
+        background-image: url(#{$images-path}/icons/arrow-down-outline@2x.png);
+        background-size: 100%;
+    }
+}

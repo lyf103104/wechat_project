@@ -1,0 +1,23 @@
+@import '../../resources/scaffold.scss';
+
+.login {
+    .login-panel {
+        .logo {
+            display: block;
+            width: 750px;
+            height: 894px;
+            background: url(./banner.png) no-repeat;
+            background-size: 750px 894px;
+        }
+
+        .login-button {
+            width: 540px;
+            height: 70px;
+            line-height: 70px;
+            margin-top: 108px;
+            font-size: $font-size-small;
+            background-color: #28a920;
+            border-color: #28a920;
+        }
+    }
+}

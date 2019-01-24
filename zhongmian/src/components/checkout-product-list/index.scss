@@ -1,0 +1,71 @@
+@import '../../resources/scaffold.scss';
+
+.checkout-product-list {
+    .product-item {
+        margin: 0 40px;
+        padding: 40px 0;
+        border-bottom: 1px solid $line-color;
+    }
+
+    .row {
+        box-sizing: border-box;
+        display: flex;
+        margin-left: -10px;
+        margin-right: -10px;
+        flex: 1;
+    }
+
+    .col {
+        box-sizing: border-box;
+        display: block;
+        flex: 1;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .col-adaptive {
+        flex: 0 1 auto;
+        width: auto;
+    }
+
+    .product-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .product-name {
+        display: block;
+        line-height: 40px;
+        color: $text-color;
+        font-size: $font-size-small;
+    }
+
+    .product-style {
+        margin-top: 4px;
+        color: #999;
+        font-size: $font-size-small;
+    }
+
+    .price-and-count {
+        display: flex;
+        margin-top: 14px;
+    }
+
+    .price-label {
+        margin-right: 1.5em;
+        display: inline-block;
+    }
+
+    .price-value {
+        color: $primary-color;
+        font-size: $font-size-base;
+        font-weight: 700;
+    }
+
+    .count {
+        line-height: 40px;
+        font-size: $font-size-small;
+        text-align: right;
+    }
+}

@@ -1,0 +1,14 @@
+@import '../../../resources/scaffold.scss';
+
+.checkout-amount {
+    padding: 20px 36px;
+    font-size: $font-size-small;
+    line-height: 2.25;
+    white-space: nowrap;
+    color: #999;
+    text-align: right;
+
+    .amount-value {
+        color: $text-color;
+    }
+}

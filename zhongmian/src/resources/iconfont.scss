@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+$fonts-path: './fonts';
+
+/**
+* demo
+* import { AtIcon } from 'taro-ui'
+* <AtIcon prefixClass='cion' value='home' size='30' color='#F00'></AtIcon>
+*/
+
+@font-face {
+    font-family: 'iconfont';
+
+    src: url('#{$fonts-path}/iconfont.eot'); /* IE9*/
+
+    src: url('#{$fonts-path}/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('#{$fonts-path}/iconfont.woff') format('woff'),
+        url('#{$fonts-path}/iconfont.ttf') format('truetype'),
+        url('#{$fonts-path}/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+$cdfg-iconfont-maps: (
+    brand-outline: '\e600',
+    user-outline: '\e601',
+    home-outline: '\e602',
+    categories-outline: '\e603',
+    user: '\e604',
+    brand: '\e605',
+    scan-outline: '\e606',
+    trophy-outline: '\e607',
+    order-outline: '\e608',
+    coupon-outline: '\e609',
+    cart: '\e60a',
+    home: '\e60b',
+    categories: '\e60c',
+    best: '\e60d',
+    arrow-left-outline: '\e60e',
+    search-outline: '\e60f',
+    notice-outline: '\e610',
+    process-outline: '\e611',
+    arrow-up-outline: '\e612',
+    arrow-down-outline: '\e613',
+    article-outline: '\e614',
+    arrow-down: '\e615',
+    filter-outline: '\e616',
+    arrow-right-outline: '\e617',
+    arrow-up: '\e618',
+    position-outline: '\e619',
+    flight-outline: '\e61a',
+    train: '\e62c',
+    phone-outline: '\e61b',
+    idcard-outline: '\e61c',
+    close-empty: '\e61d',
+    checkmark: '\e61e',
+    share-outline: '\e61f',
+    collect-outline: '\e620',
+    history: '\e62d',
+    wallet-outline: '\e621',
+    gear-outline: '\e622',
+    delivery-outline: '\e623',
+    gift-outline: '\e624',
+    swap-outline: '\e625',
+    end-outline: '\e626',
+    alert: '\e627',
+    time-outline: '\e628',
+    close-outline: '\e629',
+    cart-outline: '\e62a',
+    check: '\e62b',
+    share-ios-outline: '\e649',
+    trash-outline: '\e64a',
+    footmark: '\e64b',
+    edit-outline: '\e64c',
+    collect: '\e64d',
+    label-outline: '\e64e',
+    arrow-right-circle-outline: '\e64f',
+    location-outline: '\e650',
+    minus: '\e651',
+    plane-circle-outline: '\e652',
+    comments-outline: '\e653',
+    file-outline: '\e654',
+    circle-outline: '\e655',
+    rhombus-outline: '\e656',
+    star-outline: '\e657',
+    star: '\e658',
+    camera-outline: '\e659',
+    like-outline: '\e65a',
+    checkmark-bold: '\e65b',
+    added-circle-outline: '\e65c',
+    lightbulb-outline: '\e65d',
+    cdfg-outline: '\e65e',
+    hit-bottom-outline: '\e65f',
+    duty-free-circle-outline: '\e660',
+    pn-newbie-guide-outline: '\e661',
+    pn-after-sales-service-outline: '\e662',
+    plane-bold-circle-outline: '\e663',
+    pn-logistics-distribution-outline: '\e664',
+    pn-faq-outline: '\e665',
+    pn-about-us-outline: '\e666',
+    query-bold-circle-outline: '\e667',
+    arrow-up-bold: '\e668',
+    arrow-down-bold: '\e669',
+    close-circled: '\e62e',
+    shopping-bags-outline: '\e66a',
+    authentic-circle-outline: '\e66b',
+    menu: '\e693'
+);
+
+%cdfg-iconfont {
+    font-family: 'iconfont';
+}
+
+@each $name, $charcode in $cdfg-iconfont-maps {
+    .cion-#{$name} {
+        @extend %cdfg-iconfont;
+
+        &:before {
+            content: $charcode;
+        }
+    }
+}
+
+// logo iconfont
+// -----------------------------------------------------------------------------
+
+@font-face {
+    font-family: 'logo-iconfont';
+
+    src: url('#{$fonts-path}/logo-iconfont.eot'); /* IE9*/
+
+    src: url('#{$fonts-path}/logo-iconfont.eot?#iefix')
+            format('embedded-opentype'),
+        url('#{$fonts-path}/logo-iconfont.woff') format('woff'),
+        url('#{$fonts-path}/logo-iconfont.ttf') format('truetype'),
+        url('#{$fonts-path}/logo-iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+$cdfg-logo-iconfont-maps: (
+    wechat: '\e720',
+    sina: '\e71f',
+    alipay: '\e6a7',
+    qq: '\e616'
+);
+
+%cdfg-logo-iconfont {
+    font-family: 'logo-iconfont';
+}
+
+@each $name, $charcode in $cdfg-logo-iconfont-maps {
+    .cion-#{$name} {
+        @extend %cdfg-logo-iconfont;
+
+        &:before {
+            content: $charcode;
+        }
+    }
+}
+
+// 图标按钮
+// -----------------------------------------------------------------------------
+
+.bar .button.button-icon {
+    padding-left: 2px;
+    padding-right: 2px;
+
+    &.cion,
+    > .cion {
+        &::before {
+            font-size: 20px;
+        }
+    }
+}
+
+.bar .button-icon.button-small {
+    &.icon,
+    > .icon {
+        &::before {
+            font-size: 12px;
+            margin: 0;
+        }
+    }
+}

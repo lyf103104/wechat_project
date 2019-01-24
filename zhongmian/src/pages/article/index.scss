@@ -1,0 +1,22 @@
+@import '../../resources/scaffold.scss';
+
+// 文字大小
+$rio-font-size-base: $font-size-base;
+
+// 文字行高
+$rio-line-height: 2;
+
+// 文本颜色
+$font-color: $text-color;
+
+// 次要文本颜色
+$quiet-font-color: $text-color-quiet;
+
+// 强调文本颜色
+$loud-font-color: #333;
+
+// @import 'rio-typesetting/sass/build/rio.scss';
+
+.rio img {
+    height: auto;
+}

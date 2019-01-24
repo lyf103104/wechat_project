@@ -1,0 +1,14 @@
+@import '../../resources/scaffold.scss';
+
+.journey-info {
+    font-size: $font-size-small;
+    background-color: $white;
+
+    .flight-box {
+        padding: 0 40px;
+    }
+
+    .submit-button {
+        padding: 20px;
+    }
+}

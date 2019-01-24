@@ -1,0 +1,42 @@
+@import '../../../resources/scaffold.scss';
+
+.checkout-group-code {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 40px;
+    line-height: 100px;
+    background-color: $white;
+
+    .group-code-title {
+        font-size: $font-size-base;
+    }
+
+    .mr10 {
+        margin-right: 10px;
+    }
+
+    .group-code-detail {
+        display: flex;
+    }
+
+    .group-code-detail-text {
+        margin-right: 10px;
+        font-size: $font-size-small;
+    }
+
+    .default-text {
+        color: #ccc;
+    }
+
+    .group-code-arrow {
+        width: 38px;
+        height: 38px;
+        margin-top: 31px;
+        font-size: $font-size-base;
+    }
+}
+.group-code-modal {
+    font-size: $font-size-small;
+    line-height: $font-size-small * 1.5;
+}

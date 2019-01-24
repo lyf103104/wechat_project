@@ -1,0 +1,13 @@
+@import '../../resources/scaffold.scss';
+
+.checkout-product-list {
+    .checkout-product-total {
+        margin: 40px 40px;
+        font-size: $font-size-small;
+        color: $text-color-quiet;
+    }
+
+    .text {
+        color: $text-color;
+    }
+}

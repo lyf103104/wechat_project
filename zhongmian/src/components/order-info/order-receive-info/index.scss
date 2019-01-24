@@ -1,0 +1,18 @@
+@import '../../../resources/scaffold.scss';
+
+.order-receive-info {
+    padding: 22px 40px;
+    background-color: $white;
+
+    .info-title {
+        margin-bottom: 10px;
+        font-size: $font-size-base;
+        color: $text-color-quiet;
+    }
+
+    .info-row {
+        line-height: 62px;
+        color: #999;
+        font-size: $font-size-small;
+    }
+}

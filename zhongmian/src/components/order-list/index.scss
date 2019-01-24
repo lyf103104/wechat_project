@@ -1,0 +1,27 @@
+@import '../../resources/scaffold.scss';
+
+.order-empty {
+    padding: 20% 0;
+
+    .img-box {
+        width: 100%;
+        max-width: 640px;
+        margin: 0 auto 5%;
+    }
+
+    .img {
+        background: url(./order@3x.png) no-repeat;
+        padding-bottom: 38%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .text {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: #999;
+        font-size: 30px;
+    }
+}

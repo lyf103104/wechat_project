@@ -1,0 +1,9 @@
+@import '../../resources/scaffold.scss';
+
+.coupon {
+    background-color: $white;
+
+    .cancel-button {
+        padding: 20px;
+    }
+}

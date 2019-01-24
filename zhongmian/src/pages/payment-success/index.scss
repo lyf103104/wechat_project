@@ -1,0 +1,70 @@
+@import '../../resources/scaffold.scss';
+
+.payment-success {
+    padding: 0 20px;
+
+    .order-info {
+        width: 100%;
+        height: 70px;
+        padding: 50px 0;
+        border-bottom: 1px solid $line-color;
+    }
+    .info-wrap {
+        margin-left: 150px;
+        font-size: $font-size-base;
+    }
+    .info-name {
+        color: $text-color-quiet;
+    }
+    .tip-title {
+        margin-top: 90px;
+        text-align: center;
+        font-size: $font-size-large;
+    }
+    .tips-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        height: 38px;
+        line-height: 38px;
+    }
+    .icon-circle {
+        width: 28px;
+        height: 28px;
+        margin: 6px 8px 4px 0;
+    }
+    .sub-tips-text {
+        font-size: $font-size-base;
+        color: $text-color-quiet;
+    }
+    .code-img-box {
+        display: flex;
+        justify-content: center;
+        margin: 44px 0;
+    }
+    .code-img {
+        width: 364px;
+        height: 364px;
+    }
+    .close-tip {
+        font-size: $font-size-base;
+        color: $text-color-quiet;
+        text-align: center;
+    }
+    .bottom-buttons {
+        display: flex;
+        bottom: 0;
+        height: 84px;
+        margin-top: 210px;
+        background-color: $white;
+
+        .bottom-button {
+            width: 374px;
+        }
+        .separate-line {
+            height: 34px;
+            margin: 25px 0;
+            border-left: 1px solid $line-color;
+        }
+    }
+}

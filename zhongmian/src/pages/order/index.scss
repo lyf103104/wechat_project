@@ -1,0 +1,60 @@
+@import '../../resources/scaffold.scss';
+
+.order {
+    padding-bottom: 100px;
+    .order-coupon {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        padding: 0 40px;
+        line-height: 100px;
+        background-color: $white;
+        font-size: $font-size-small;
+        color: $text-color-quiet;
+    }
+
+    .fixed-button {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: flex-end;
+        height: 88px;
+        line-height: 88px;
+        padding: 10px 20px;
+        background-color: $white;
+        border-top: 1px solid $stable;
+    }
+
+    .btn {
+        margin-right: 20px;
+    }
+
+    .order-code-box {
+        text-align: center;
+        font-size: 100%;
+    }
+    .order-code {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 66px 0;
+    }
+
+    .order-title {
+        margin-bottom: 20px;
+    }
+}
+
+.platform-ios.platform-iphone-x,
+.platform-ios.platform-iphone-xr,
+.platform-ios.platform-iphone-xs,
+.platform-ios.platform-iphone-xs-max {
+    &.order {
+        padding-bottom: 168px;
+    }
+    .fixed-button {
+        padding-bottom: 68px;
+    }
+}

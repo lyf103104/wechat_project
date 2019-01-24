@@ -1,0 +1,18 @@
+@import '../../resources/scaffold.scss';
+
+.orders {
+    .order-code-box {
+        text-align: center;
+        font-size: 100%;
+    }
+    .order-code {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 66px 0;
+    }
+
+    .order-title {
+        margin-bottom: 20px;
+    }
+}

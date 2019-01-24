@@ -1,0 +1,61 @@
+@import '../../resources/scaffold.scss';
+
+.product-item {
+    padding: 40px 30px;
+    font-size: $font-size-base;
+    border-bottom: 1px solid $line-color;
+
+    &.product-last-item {
+        border-bottom: 0;
+    }
+
+    .item-name {
+        display: block;
+        height: 38px;
+        line-height: 38px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .item-detail {
+        display: flex;
+        height: 52px;
+        line-height: 52px;
+        margin-top: 8px;
+    }
+    .item-price {
+        width: 375px;
+        color: $primary-color;
+        font-size: 32px;
+    }
+    .amount-wrap {
+        display: flex;
+        justify-content: flex-end;
+        width: 375px;
+    }
+    .amount-box {
+        display: flex;
+        width: 200px;
+        height: 52px;
+        border: 1px solid $line-color;
+    }
+    .icon-box {
+        display: flex;
+        justify-content: center;
+        width: 50px;
+        height: 52px;
+    }
+    .amount-icon {
+        width: 28px;
+        height: 28px;
+        margin: 12px 11px;
+    }
+    .amount-value {
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border: 0;
+    }
+}

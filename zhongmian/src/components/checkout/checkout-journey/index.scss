@@ -1,0 +1,70 @@
+@import '../../../resources/scaffold.scss';
+
+.checkout-journey {
+    .journey-info {
+        display: flex;
+        margin-top: 40px;
+        padding: 34px 40px;
+        background-color: $white;
+        font-size: $font-size-small;
+    }
+
+    .row {
+        box-sizing: border-box;
+        display: flex;
+        margin: 0 -5px;
+        flex: 1;
+    }
+
+    .col {
+        box-sizing: border-box;
+        display: block;
+        flex: 1;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .col-center {
+        align-self: center;
+    }
+
+    .col-adaptive {
+        flex: 0 1 auto;
+        width: auto;
+    }
+
+    .flight-icon {
+        width: 56px;
+        height: 56px;
+        margin-left: 10px;
+        margin-right: 26px;
+    }
+
+    .flight-text {
+        line-height: 56px;
+        padding-right: 0;
+        font-size: $font-size-small;
+    }
+
+    .arrow-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .journey-empty {
+        display: flex;
+        justify-content: center;
+        padding: 54px 0;
+        font-size: 40px;
+        text-align: center;
+        background-color: $white;
+    }
+
+    .journey-icon {
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+        margin-right: $spacing-h-sm;
+    }
+}

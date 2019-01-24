@@ -1,0 +1,103 @@
+@import '../../resources/scaffold.scss';
+
+.order-item {
+    margin: 0 40px 20px;
+    background-color: $white;
+
+    .header-info {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        border-bottom: solid $line-color 1px;
+    }
+
+    .header-left {
+        display: flex;
+    }
+
+    .site-icon {
+        width: 28px;
+        height: 24px;
+        margin-right: 12px;
+    }
+
+    .sub-site-name {
+        font-size: $font-size-small;
+        color: #999;
+    }
+
+    .status {
+        font-size: $font-size-small;
+        color: $primary-color;
+    }
+
+    .products-image {
+        float: left;
+        position: relative;
+        display: block;
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .image-box {
+        display: table;
+        height: 142px;
+        user-select: none;
+        text-size-adjust: none;
+        transform-origin: left top;
+    }
+
+    .product-image {
+        display: table-cell;
+        width: 182px;
+        height: 142px;
+        padding-right: 40px;
+    }
+
+    .image {
+        width: 142px;
+        height: 142px;
+        border: solid #eee 1px;
+    }
+
+    .order-content {
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .icon-arrow {
+        position: absolute;
+        width: 38px;
+        height: 38px;
+        top: 39px;
+        right: 0;
+        font-size: $font-size-base;
+    }
+
+    .order-showid {
+        margin-bottom: 40px;
+        font-size: $font-size-base;
+    }
+
+    .order-total {
+        color: #999;
+        font-size: $font-size-small;
+    }
+
+    .text {
+        color: $text-color;
+    }
+
+    .order-bottom {
+        margin-top: 20px;
+    }
+
+    .button-box {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .btn {
+        margin-left: 10px;
+    }
+}
